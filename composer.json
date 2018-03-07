@@ -1,0 +1,26 @@
+{
+    "name": "skuhnow/elements",
+    "type": "library",
+    "authors": [
+        {
+            "name": "S Kuhnow",
+            "email": "sebastian.kuhnow@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SKuhnow\\Elements\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SKuhnow\\Elements\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "require": {
+        "doctrine/collections": "^1.4"
+    }
+}
